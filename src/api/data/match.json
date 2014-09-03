@@ -1,0 +1,118 @@
+{
+  "status": {
+    "isOK": true,
+    "errorMsg": "no error",
+    "errorCode": 0
+  },
+  "data": {
+    "users": [
+      {
+        "user": {
+          "name": {
+            "last": "Schilling",
+            "first": "Phillip"
+          },
+          "id": "539e89153588f79143a5a3b4",
+          "agency": "RAPP",
+          "country": "Germany",
+          "profession": 0,
+          "smallPictureUrl": "http://profile-images.spotify-cannes.com/100_1402898710202_539e89153588f79143a5a3b4.jpg",
+          "mediumPictureUrl": "http://profile-images.spotify-cannes.com/200_1402898710202_539e89153588f79143a5a3b4.jpg",
+          "largePictureUrl": "http://profile-images.spotify-cannes.com/1402898710202_539e89153588f79143a5a3b4.jpg"
+        },
+        "song": {
+          "id": "3yREcJtetxQZWj71yVb1k1",
+          "genreID": 3,
+          "name": "Rise",
+          "artist": "Eddie Vedder",
+          "coverURL": "https://i.scdn.co/image/4ace101040719b7769b8557d5c08d56f3d7e6fd5"
+        }
+      },
+      {
+        "user": {
+          "name": {
+            "last": "Schilling",
+            "first": "Phillip"
+          },
+          "id": "53a3dfde8030eee93a27a30c",
+          "agency": "RAPP",
+          "country": "Germany",
+          "profession": 0
+        },
+        "song": {
+          "id": "3yREcJtetxQZWj71yVb1k1",
+          "genreID": 3,
+          "name": "Rise",
+          "artist": "Eddie Vedder",
+          "coverURL": "https://i.scdn.co/image/4ace101040719b7769b8557d5c08d56f3d7e6fd5"
+        }
+      },
+      {
+        "user": {
+          "name": {
+            "last": "Cunningham",
+            "first": "Chris"
+          },
+          "id": "5396f1ffbbd1a1351ed971c5",
+          "agency": "",
+          "country": "",
+          "profession": "",
+          "smallPictureUrl": "http://profile-images.spotify-cannes.com/100_speaker_20140404163410.jpg",
+          "mediumPictureUrl": "http://profile-images.spotify-cannes.com/200_speaker_20140404163410.jpg",
+          "largePictureUrl": "http://profile-images.spotify-cannes.com/speaker_20140404163410.jpg"
+        },
+        "song": {
+          "id": "40ZpWECiNkiDBU13crtDfP",
+          "genreID": 3,
+          "name": "Empire State of Mind (Originally Performed By Jay-Z)",
+          "artist": "Liquid Audio",
+          "coverURL": "https://d3rt1990lpmkn.cloudfront.net/original/c3626cc41b7e932f2e74715402e3e0b593b60a2e"
+        }
+      },
+      {
+        "user": {
+          "name": {
+            "last": "Kurlovich",
+            "first": "Zmicier"
+          },
+          "id": "53a15a5f47c3ed7a16bae885",
+          "agency": "VELCOM",
+          "country": "Belarus",
+          "profession": 4,
+          "smallPictureUrl": "http://profile-images.spotify-cannes.com/100_1403083359871_53a15a5f47c3ed7a16bae885.jpg",
+          "mediumPictureUrl": "http://profile-images.spotify-cannes.com/200_1403083359871_53a15a5f47c3ed7a16bae885.jpg",
+          "largePictureUrl": "http://profile-images.spotify-cannes.com/1403083359871_53a15a5f47c3ed7a16bae885.jpg"
+        },
+        "song": {
+          "id": "6Zix4uoptlcuG0guUrDh7K",
+          "genreID": 3,
+          "name": "Five Miles Out",
+          "artist": "Mike Oldfield",
+          "coverURL": "https://i.scdn.co/image/92606baf1dd260c16af52d9a49d9550a7402ac4f"
+        }
+      },
+      {
+        "user": {
+          "name": {
+            "last": "Baylis",
+            "first": "Chris"
+          },
+          "id": "5396f531bbd1a1351ed97283",
+          "agency": "",
+          "country": "",
+          "profession": "",
+          "smallPictureUrl": "http://profile-images.spotify-cannes.com/100_speaker_20140425114052.jpg",
+          "mediumPictureUrl": "http://profile-images.spotify-cannes.com/200_speaker_20140425114052.jpg",
+          "largePictureUrl": "http://profile-images.spotify-cannes.com/speaker_20140425114052.jpg"
+        },
+        "song": {
+          "id": "6DmfWj5kOa1fX8AwN9byOn",
+          "genreID": 3,
+          "name": "L.A. Woman",
+          "artist": "The Doors",
+          "coverURL": "https://d3rt1990lpmkn.cloudfront.net/original/12d26e9bacd0ff7ba094850ca76927db84bf8668"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+<data>
+	<var>
+		{
+			"page" : "Landing",
+			"startParams" : "undefined",
+			"state" : "Virtual",
+			"debug" : true,
+			"force2D" : false,
+			"skipIntro" : false,
+			"skipLoader" : false
+		}
+	</var>
+
+
+	<assets>
+		<asset loadfromStart="true" type='template' src="files/html/landing.html" id="templateLanding"></asset>
+		<asset loadfromStart="true" type='template' src="files/html/stats.html" id="templateStats"></asset>
+		<asset loadfromStart="true" type='template' src="files/html/header.html" id="templateHeader"></asset>
+		<asset loadfromStart="true" type='template' src="files/html/about.html" id="templateAbout"></asset>
+		<asset loadfromStart="true" type='image' src="common/user02.jpg" id="imgUser"></asset>
+		<asset loadfromStart="true" type='image' src="common/users/01.png" id="imgUser0"></asset>
+		<asset loadfromStart="true" type='image' src="common/users/02.png" id="imgUser1"></asset>
+		<asset loadfromStart="true" type='image' src="common/users/03.png" id="imgUser2"></asset>
+		<asset loadfromStart="true" type='image' src="common/users/04.png" id="imgUser3"></asset>
+		<asset loadfromStart="true" type='image' src="common/users/05.png" id="imgUser4"></asset>
+
+		<asset loadfromStart="true" type='image' src="landing/covers/01.png" id="intro_cover01"></asset>
+		<asset loadfromStart="true" type='image' src="landing/covers/02.png" id="intro_cover02"></asset>
+		<asset loadfromStart="true" type='image' src="landing/covers/03.png" id="intro_cover03"></asset>
+		<asset loadfromStart="true" type='image' src="landing/covers/04.png" id="intro_cover04"></asset>
+		<asset loadfromStart="true" type='image' src="landing/covers/05.png" id="intro_cover05"></asset>
+		<asset loadfromStart="true" type='image' src="landing/covers/06.png" id="intro_cover06"></asset>
+		<asset loadfromStart="true" type='image' src="landing/covers/07.png" id="intro_cover07"></asset>
+		<asset loadfromStart="true" type='image' src="landing/covers/08.png" id="intro_cover08"></asset>
+		<asset loadfromStart="true" type='image' src="landing/covers/09.png" id="intro_cover09"></asset>
+		<asset loadfromStart="true" type='image' src="landing/covers/10.png" id="intro_cover10"></asset>
+		<asset loadfromStart="true" type='image' src="landing/covers/11.png" id="intro_cover11"></asset>
+		<asset loadfromStart="true" type='image' src="landing/covers/12.png" id="intro_cover12"></asset>
+		<asset loadfromStart="true" type='image' src="landing/covers/13.png" id="intro_cover13"></asset>
+		<asset loadfromStart="true" type='image' src="landing/covers/14.png" id="intro_cover14"></asset>
+
+
+
+	</assets>
+
+	<templates>
+		<template id="MainLoader" className="MainLoaderPage" assets=""></template>
+		<template id="SmallLoader" className="SmallLoaderPage" assets=""></template>
+
+		<template id="Landing" className="LandingPage" assets=""></template>
+		<template id="Header" className="HeaderPage" assets=""></template>
+		<template id="Footer" className="FooterPage" assets=""></template>
+		<template id="About" className="AboutPage" assets=""></template>
+		<template id="Stats" className="StatsPage" assets="templateStats"></template>
+	</templates>
+
+	<pages permanent_pages="Header,Footer,Stats" loader_page="MainLoader">
+		<page id="Landing" open_pages="Landing" keep_pages="" loader_page="SmallLoader" default_state="" default_section="" />
+		<page id="About" open_pages="About" keep_pages="all" loader_page="SmallLoader" default_state="" default_section="" />
+		<page id="Stats" open_pages="Stats" keep_pages="all" loader_page="SmallLoader" default_state="" default_section="" />
+	</pages>
+</data>

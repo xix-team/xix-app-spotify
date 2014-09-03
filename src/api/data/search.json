@@ -1,0 +1,27 @@
+{
+  "status": {
+    "isOK": true,
+    "errorMsg": "no error",
+    "errorCode": 0
+  },
+  "data": {
+    "users": [
+      {
+        "firstName": "Bryson",
+        "lastName": "Meunier",
+        "userID": "53fcb167d7acc61206c7306a",
+        "imgProfileSmall": "http://profile-images.spotify-cannes.com/100_1409069416136_53fcb167d7acc61206c7306a.jpg",
+        "imgProfileMedium": "http://profile-images.spotify-cannes.com/200_1409069416136_53fcb167d7acc61206c7306a.jpg",
+        "imgProfileLarge": "http://profile-images.spotify-cannes.com/1409069416136_53fcb167d7acc61206c7306a.jpg",
+        "country": "United States",
+        "agency": "VIVID SEATS",
+        "songGenre": 3,
+        "songTitle": "Debaser",
+        "artistName": "Pixies",
+        "imgAlbum": "https://i.scdn.co/image/bffc195a56198879931403e60eeb04fc3ad088ed"
+      }
+    ],
+    "agencyIndex": 2383,
+    "name": "VIVID SEATS"
+  }
+}

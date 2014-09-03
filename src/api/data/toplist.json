@@ -1,0 +1,119 @@
+{
+  "status": {
+    "isOK": true,
+    "errorMsg": "no error",
+    "errorCode": 0
+  },
+  "data": {
+    "danceability": [
+      {
+        "name": "Catherine Gray",
+        "value": 0.955048
+      },
+      {
+        "name": "Vicki Maguire",
+        "value": 0.944122
+      },
+      {
+        "name": "Dan Greenberg",
+        "value": 0.942217
+      },
+      {
+        "name": "Angela Spain",
+        "value": 0.93051
+      },
+      {
+        "name": "Angela Spain",
+        "value": 0.93051
+      }
+    ],
+    "energy": [
+      {
+        "name": "Askhat Uskembayev",
+        "value": 0.992993
+      },
+      {
+        "name": "Askhat Uskembayev",
+        "value": 0.992993
+      },
+      {
+        "name": "Bram Ceuppens",
+        "value": 0.990812
+      },
+      {
+        "name": "Stéphane Gazzo",
+        "value": 0.989133
+      },
+      {
+        "name": "Michael Nyberg",
+        "value": 0.988736
+      }
+    ],
+    "tempo": [
+      {
+        "name": "Prasoon Pandey",
+        "value": 230.108
+      },
+      {
+        "name": "Tim Wagemanns",
+        "value": 205.848
+      },
+      {
+        "name": "Simon Blaxland",
+        "value": 204.209
+      },
+      {
+        "name": "Ramsés Meza",
+        "value": 200.078
+      },
+      {
+        "name": "Richard Firminger",
+        "value": 199.859
+      }
+    ],
+    "hotttnesss": [
+      {
+        "name": "Kelvin Gómez",
+        "value": 0.926816
+      },
+      {
+        "name": "Kristina Dimitrova",
+        "value": 0.926816
+      },
+      {
+        "name": "Brett Prescott",
+        "value": 0.926816
+      },
+      {
+        "name": "Cody Brz",
+        "value": 0.925647
+      },
+      {
+        "name": "Moritz Weischer",
+        "value": 0.92334
+      }
+    ],
+    "discovery": [
+      {
+        "name": "Janne Honkaniemi",
+        "value": 0.33937372340163735
+      },
+      {
+        "name": "Gautier Derocles",
+        "value": 0.3050315067080552
+      },
+      {
+        "name": "Andreas Holmström",
+        "value": 0.2543215229657925
+      },
+      {
+        "name": "Matty Burton",
+        "value": 0.23557562879
+      },
+      {
+        "name": "Nagy Moubareck",
+        "value": 0.21988938031389493
+      }
+    ]
+  }
+}

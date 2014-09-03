@@ -1,0 +1,571 @@
+{
+  "status": {
+    "isOK": true,
+    "errorMsg": "no error",
+    "errorCode": 0
+  },
+  "data": {
+    "countries": [
+      {
+        "name": "Uruguay",
+        "coords": [
+          -33,
+          -56
+        ]
+      },
+      {
+        "name": "Indonesia",
+        "coords": [
+          -5,
+          120
+        ]
+      },
+      {
+        "name": "Albania",
+        "coords": [
+          41,
+          20
+        ]
+      },
+      {
+        "name": "Azerbaijan",
+        "coords": [
+          40.5,
+          47.5
+        ]
+      },
+      {
+        "name": "Lebanon",
+        "coords": [
+          33.83333333,
+          35.83333333
+        ]
+      },
+      {
+        "name": "Kazakhstan",
+        "coords": [
+          48,
+          68
+        ]
+      },
+      {
+        "name": "Greece",
+        "coords": [
+          39,
+          22
+        ]
+      },
+      {
+        "name": "Malaysia",
+        "coords": [
+          2.5,
+          112.5
+        ]
+      },
+      {
+        "name": "Latvia",
+        "coords": [
+          57,
+          25
+        ]
+      },
+      {
+        "name": "Egypt",
+        "coords": [
+          27,
+          30
+        ]
+      },
+      {
+        "name": "Georgia",
+        "coords": [
+          42,
+          43.5
+        ]
+      },
+      {
+        "name": "Dominican Republic",
+        "coords": [
+          19,
+          -70.66666667
+        ]
+      },
+      {
+        "name": "Morocco",
+        "coords": [
+          32,
+          -5
+        ]
+      },
+      {
+        "name": "Lithuania",
+        "coords": [
+          56,
+          24
+        ]
+      },
+      {
+        "name": "Kuwait",
+        "coords": [
+          29.366667,
+          47.966667
+        ]
+      },
+      {
+        "name": "Paraguay",
+        "coords": [
+          -23,
+          -58
+        ]
+      },
+      {
+        "name": "Slovakia",
+        "coords": [
+          48.66666667,
+          19.5
+        ]
+      },
+      {
+        "name": "Saudi Arabia",
+        "coords": [
+          25,
+          45
+        ]
+      },
+      {
+        "name": "Puerto Rico",
+        "coords": [
+          18.25,
+          -66.5
+        ]
+      },
+      {
+        "name": "Qatar",
+        "coords": [
+          25.5,
+          51.25
+        ]
+      },
+      {
+        "name": "South Africa",
+        "coords": [
+          -29,
+          24
+        ]
+      },
+      {
+        "name": "New Zealand",
+        "coords": [
+          -41,
+          174
+        ]
+      },
+      {
+        "name": "United Arab Emirates",
+        "coords": [
+          24,
+          54
+        ]
+      },
+      {
+        "name": "Czech Republic",
+        "coords": [
+          49.75,
+          15.5
+        ]
+      },
+      {
+        "name": "Canada",
+        "coords": [
+          60,
+          -95
+        ]
+      },
+      {
+        "name": "Switzerland",
+        "coords": [
+          47,
+          8
+        ]
+      },
+      {
+        "name": "Israel",
+        "coords": [
+          31.5,
+          34.75
+        ]
+      },
+      {
+        "name": "Sri Lanka",
+        "coords": [
+          7,
+          81
+        ]
+      },
+      {
+        "name": "Guatemala",
+        "coords": [
+          15.5,
+          -90.25
+        ]
+      },
+      {
+        "name": "Oman",
+        "coords": [
+          21,
+          57
+        ]
+      },
+      {
+        "name": "Peru",
+        "coords": [
+          -10,
+          -76
+        ]
+      },
+      {
+        "name": "Portugal",
+        "coords": [
+          39.5,
+          -8
+        ]
+      },
+      {
+        "name": "Poland",
+        "coords": [
+          52,
+          20
+        ]
+      },
+      {
+        "name": "Slovenia",
+        "coords": [
+          46.11666667,
+          14.81666667
+        ]
+      },
+      {
+        "name": "Cook Islands",
+        "coords": [
+          -21.23333333,
+          -159.7666667
+        ]
+      },
+      {
+        "name": "Norway",
+        "coords": [
+          62,
+          10
+        ]
+      },
+      {
+        "name": "Belarus",
+        "coords": [
+          53,
+          28
+        ]
+      },
+      {
+        "name": "Panama",
+        "coords": [
+          9,
+          -80
+        ]
+      },
+      {
+        "name": "Turkey",
+        "coords": [
+          39,
+          35
+        ]
+      },
+      {
+        "name": "Hungary",
+        "coords": [
+          47,
+          20
+        ]
+      },
+      {
+        "name": "Pakistan",
+        "coords": [
+          30,
+          70
+        ]
+      },
+      {
+        "name": "Denmark",
+        "coords": [
+          56,
+          10
+        ]
+      },
+      {
+        "name": "Austria",
+        "coords": [
+          47.33333333,
+          13.33333333
+        ]
+      },
+      {
+        "name": "Nigeria",
+        "coords": [
+          10,
+          8
+        ]
+      },
+      {
+        "name": "Honduras",
+        "coords": [
+          15,
+          -86.5
+        ]
+      },
+      {
+        "name": "Romania",
+        "coords": [
+          46,
+          25
+        ]
+      },
+      {
+        "name": "Chile",
+        "coords": [
+          -30,
+          -71
+        ]
+      },
+      {
+        "name": "Bulgaria",
+        "coords": [
+          43,
+          25
+        ]
+      },
+      {
+        "name": "Estonia",
+        "coords": [
+          59,
+          26
+        ]
+      },
+      {
+        "name": "Finland",
+        "coords": [
+          64,
+          26
+        ]
+      },
+      {
+        "name": "Philippines",
+        "coords": [
+          13,
+          122
+        ]
+      },
+      {
+        "name": "Taiwan, Province of China",
+        "coords": [
+          23.5,
+          121
+        ]
+      },
+      {
+        "name": "Germany",
+        "coords": [
+          51,
+          9
+        ]
+      },
+      {
+        "name": "Italy",
+        "coords": [
+          42.83333333,
+          12.83333333
+        ]
+      },
+      {
+        "name": "Australia",
+        "coords": [
+          -27,
+          133
+        ]
+      },
+      {
+        "name": "India",
+        "coords": [
+          20,
+          77
+        ]
+      },
+      {
+        "name": "Moldova, Republic of",
+        "coords": [
+          47,
+          29
+        ]
+      },
+      {
+        "name": "Mexico",
+        "coords": [
+          23,
+          -102
+        ]
+      },
+      {
+        "name": "France",
+        "coords": [
+          46,
+          2
+        ]
+      },
+      {
+        "name": "Ecuador",
+        "coords": [
+          -2,
+          -77.5
+        ]
+      },
+      {
+        "name": "United Kingdom",
+        "coords": [
+          54,
+          -2
+        ]
+      },
+      {
+        "name": "Singapore",
+        "coords": [
+          1.366666667,
+          103.8
+        ]
+      },
+      {
+        "name": "Costa Rica",
+        "coords": [
+          10,
+          -84
+        ]
+      },
+      {
+        "name": "Brazil",
+        "coords": [
+          -10,
+          -55
+        ]
+      },
+      {
+        "name": "Sweden",
+        "coords": [
+          62,
+          15
+        ]
+      },
+      {
+        "name": "Ukraine",
+        "coords": [
+          49,
+          32
+        ]
+      },
+      {
+        "name": "Argentina",
+        "coords": [
+          -34,
+          -64
+        ]
+      },
+      {
+        "name": "Croatia",
+        "coords": [
+          45.16666667,
+          15.5
+        ]
+      },
+      {
+        "name": "Ireland",
+        "coords": [
+          53,
+          -8
+        ]
+      },
+      {
+        "name": "Russian Federation",
+        "coords": [
+          60,
+          100
+        ]
+      },
+      {
+        "name": "Japan",
+        "coords": [
+          36,
+          138
+        ]
+      },
+      {
+        "name": "Netherlands",
+        "coords": [
+          52.5,
+          5.75
+        ]
+      },
+      {
+        "name": "Spain",
+        "coords": [
+          40,
+          -4
+        ]
+      },
+      {
+        "name": "United States",
+        "coords": [
+          38,
+          -97
+        ]
+      },
+      {
+        "name": "Thailand",
+        "coords": [
+          15,
+          100
+        ]
+      },
+      {
+        "name": "Hong Kong",
+        "coords": [
+          22.25,
+          114.1666667
+        ]
+      },
+      {
+        "name": "Belgium",
+        "coords": [
+          50.83333333,
+          4
+        ]
+      },
+      {
+        "name": "Colombia",
+        "coords": [
+          4,
+          -72
+        ]
+      },
+      {
+        "name": "China",
+        "coords": [
+          35,
+          105
+        ]
+      },
+      {
+        "name": "Korea, Republic of",
+        "coords": [
+          37,
+          127.5
+        ]
+      }
+    ]
+  }
+}
