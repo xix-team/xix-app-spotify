@@ -1,0 +1,61 @@
+{
+  "status": {
+    "isOK": true,
+    "errorMsg": "no error",
+    "errorCode": 0
+  },
+  "data": {
+    "statistics": {
+      "mood": 2,
+      "genres": {
+        "total": 1219,
+        "list": [
+          {
+            "id": 0,
+            "value": 209
+          },
+          {
+            "id": 1,
+            "value": 180
+          },
+          {
+            "id": 2,
+            "value": 168
+          },
+          {
+            "id": 3,
+            "value": 469
+          },
+          {
+            "id": 4,
+            "value": 60
+          },
+          {
+            "id": 5,
+            "value": 77
+          },
+          {
+            "id": 6,
+            "value": 17
+          },
+          {
+            "id": 7,
+            "value": 24
+          },
+          {
+            "id": 8,
+            "value": 14
+          },
+          {
+            "id": 9,
+            "value": 1
+          }
+        ]
+      },
+      "tempo": 123.00519524200158,
+      "energy": 0.6548822116488928,
+      "hotttnesss": 0.48127349056603835,
+      "discovery": 0.015718424110427842
+    }
+  }
+}

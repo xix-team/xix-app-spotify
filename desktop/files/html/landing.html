@@ -1,0 +1,171 @@
+
+	<body>
+		<div id="LandingContent" data-type="template">
+
+			<div class="landingCopyContainer">
+				<div class="loaderLogo"></div>
+				<div class="landingTitle">It all starts with a <span class="red">s</span><span class="blue">o</span><span class="lightblue">n</span><span class="green">g</span>.</div>
+				<div class="landingText">We want to uncover the musical connections between everyone at this year's Cannes Lions. So we're asking a simple question: what song inspires you?</div>
+				<img class="instructions" src="./landing_files/instructions.jpg">
+				<div class="primaryButton" id="btnExplore">
+					<h1 data-type="copy" data-copyid="desktop.cannes.landing.btnExplore"></h1>
+				</div>
+			</div>
+
+			<div class="mobilePush">
+				<div class="mobileIcon"></div>
+				<div class="mobilePushTitle">Be part of the story!</div>
+				<div class="mobilePushDesc">Visit <span class="green">spotify.com/cannes</span> on your phone to add your song</div>
+			</div>
+
+			<div class="landingSearchPanel">
+
+				<div class="centeredBtns">
+					<div id="btnSearch" class="buttonGreen circleBtn40">
+						<div class="iconSearch"></div>
+					</div>
+					<div id="btnGlobe" class="buttonGreen circleBtn40">
+						<div class="iconGlobe"></div>
+					</div>
+				</div>
+
+				<div id="btnStats" class="buttonGreyDark circleBtn30">
+					<div class="iconStats"></div>
+				</div>
+				<div id="genresFilterContainer">
+					<div class="secondaryButton buttonGreyDark" id="btnGenre">
+						<h1 class="btnGenreCopy" data-type="copy" data-copyid="desktop.cannes.landing.btnGenre"></h1>
+					</div>
+					<ul id="genresList">
+					</ul>
+					<li id="genreItemTemplate" class="genreItem">
+						<div class="legend">
+							<div class="percent">{{=percent}}</div>
+							<div class="name">{{=name}}</div>
+						</div>
+						<div class="dot"></div>
+					</li>
+				</div>
+
+				<div class="secondaryButton buttonGreyFull" id="btnAbout">
+					<h1 class="btnGenreCopy" data-type="copy" data-copyid="desktop.cannes.landing.btnAbout"></h1>
+				</div>
+				<div id="btnShare" class="buttonGreyFull circleBtn30">
+					<div class="iconShare"></div>
+					<div class="shareButtons">
+						<div class="facebook"></div>
+						<div class="twitter"></div>
+					</div>
+				</div>
+
+				<div class="searchContainer">
+
+					<div class="searchInputWrapper">
+						<div class="btnSearch"></div>
+						<div class="arrows">
+							<div class="prevArrow"></div>
+							<div class="nextArrow"></div>
+						</div>
+						<input type="text" class="searchInput" autocorrect="off" autocomplete="off" data-type="copy" data-copyid="desktop.cannes.landing.defaultSearch" placeholder="Search">
+						<div class="searchInputSuggestionContainer">
+							<div class="searchInputSuggestion">
+								<span class="searchInputSpanValue"></span><span class="searchInputSpanComplete"></span>
+							</div>
+						</div>
+						<div class="validate">
+							GO
+						</div>
+					</div>
+					<div class="searchSelectWrapper">
+						<ul class="customSelect">
+							<span class="hoverBox"></span>
+						</ul>
+					</div>
+					<div class="buttonsContainer">
+						<h1 class="btnAgency secondaryButton buttonGreyDark" data-type="copy" data-copyid="desktop.cannes.landing.btnAgency"></h1>
+						<h1 class="btnPeople secondaryButton buttonGreyDark" data-type="copy" data-copyid="desktop.cannes.landing.btnPeople"></h1>
+					</div>
+				</div>
+			</div>
+			<div class="profileParticleWrapper_desktop"></div>
+			<div class="expandedProfileWrapper">
+				<div class="backgroundTouchEl">
+					<!-- <div class="expandedViewWrapper">
+						<div class="startViewWrapper">
+							<div class="topWrapper">
+								<h2 class="fullName"></h2>
+								<h3 class="agencyTitle"></h3>
+								<h3 class="location"></h3>
+							</div>
+							<div class="middleWrapper">
+								<div class="albumCover"></div>
+								<div class="profileImage"></div>
+								<div class="touchEl"></div>
+							</div>
+						</div>
+						<div class="indicatorViewWrapper"></div>
+						<div class="controlWrapper">
+							<h5 class="genre"></h5>
+							<h2 class="artist"></h2>
+							<h2 class="songTitle"></h2>
+							<div class="buttonWrapper">
+								<button class="viewSwitchBtn"></button>
+								<button class="openSpotifyBtn">OPEN IN SPOTIFY</button>
+							</div>
+						</div>
+					</div> -->
+					<div class="expandedViewWrapper">
+						<div class="startViewWrapper">
+							<div class="topWrapper">
+								<h2 class="fullName"></h2>
+								<h3 class="agencyTitle"></h3>
+								<div class="locationHolder">
+									<div class="locationIcon"></div>
+									<h3 class="location"></h3>
+								</div>
+							</div>
+
+
+							<div id="middleWrapperHolder">
+								<div id="middleWrapper">
+									<div class="albumCover"></div>
+									<div class="profileImage"></div>
+									<div class="touchEl"></div>
+								</div>
+							</div>
+
+					</div>
+						<div class="indicatorViewWrapper"></div>
+						<div class="controlWrapper">
+							<div class="genreHolder">
+								<div class="genreIcon"></div>
+								<h5 class="genre"></h5>
+							</div>
+							<h2 class="artist"></h2>
+							<h2 class="songTitle"></h2>
+							<!-- <div class="closeBtn"></div> -->
+							<button class="openInSpotify">OPEN IN SPOTIFY</button>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="CountryNoResultContent" data-type="template">
+			<h2>No result found</h2>
+			<p>
+				There are no people connected from this country.<br>
+				Please search another country.
+			</p>
+		</div>
+
+		<div id="IPADnoPortraitContent" data-type="template">
+			<div class="middleWrapper">
+				<div class="noPortrait"></div>
+				<div class="legend">
+					<p>This experience requires landscape</p>
+					<p class="rotate">Rotate to continue</p>
+				</div>
+			</div>
+		</div>
+	
