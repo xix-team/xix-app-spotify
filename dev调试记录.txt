@@ -1,0 +1,4 @@
+1.F:\GitCode\demo\spotify\desktop\js\cannes_during\spotify\pages\landing\ExpandedProfileController.js的父类定义错误
+2.F:\GitCode\demo\spotify\desktop\js\cannes_during\spotify\pages\landing\ExpandedProfile\ExpandedProfileBottomView的父类定义错误  以及函数的错误
+3.F:\GitCode\demo\spotify\desktop\js\cannes_during\spotify\pages\landing\ExpandedProfile\ExpandedProfileStartView的父类定义错误  以及函数的错误
+4.抓取的html的问题，程序通过属性data-copyId 获取不到的问题
