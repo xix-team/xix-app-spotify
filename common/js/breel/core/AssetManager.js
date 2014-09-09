@@ -231,6 +231,7 @@
 
 
 		p.updateAllStyleSheetsForPixelDensity = function() {
+			debugger;
 			for (var i = 0; i < document.styleSheets.length; i++ ){
 				this.updateImageSrcInCSSSheet(document.styleSheets[i]);
 			}
@@ -238,6 +239,7 @@
 		
 
 		p.updateImageSrcInCSSSheet = function(aStyleSheet) {
+			debugger;
 			var ruleList = aStyleSheet.cssRules || aStyleSheet.rules || new Array();
 			for (var i= 0; i < ruleList.length; i++)
 			{
@@ -295,6 +297,7 @@
 					// DO NOTHING
 					break;
 				case 4: //Done
+				debugger;
 					if(this._req.status < 400) {
 					//console.log( "Get ready event from : ", this._currentAsset.id );	
 						if(this._currentAsset.type == "template") this._templateLoadCallback(this._req.responseText);
@@ -463,6 +466,7 @@
 			for (var i = 0; i < copyCollection.length; i++){
 				var copyNode = copyCollection[i];
 				var copyId = copyNode.getAttribute("data-copyId");
+				copyId=copyId?copyId:copyNode.getAttribute("data-copyid");
 				// //console.log(copyId, copyNode, copyNode.innerHTML);
 				try {
 					copyNode.innerHTML = core.copyManager.getCopy(copyId);

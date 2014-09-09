@@ -1,6 +1,7 @@
 
 
 breelNS.defineClass(breelNS.projectName+".page.landing.ExpandedProfileController", breelNS.projectName+".common.profileParticles.ExpandedProfileController", function(p, s, ExpandedProfileController) {
+	debugger;
 	var ExpandedProfileStartView = breelNS.getNamespace(breelNS.projectName+".page.landing.expandedProfile").ExpandedProfileStartView;
 	var ExpandedProfileBottomView = breelNS.getNamespace(breelNS.projectName+".page.landing.expandedProfile").ExpandedProfileBottomView;
 	var ListenerFunctions      = breelNS.getNamespace("generic.events").ListenerFunctions;
@@ -13,7 +14,6 @@ breelNS.defineClass(breelNS.projectName+".page.landing.ExpandedProfileController
 		siteManager = breelNS.getNamespace(breelNS.projectName).singletons.siteManager;
 
 		s.init.call(this, el);
-
 		this.expandedProfileStartView = new ExpandedProfileStartView();
 		this.expandedProfileStartView.init(this._el.querySelector('.startViewWrapper'));
 

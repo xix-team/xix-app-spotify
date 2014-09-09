@@ -7,7 +7,6 @@ breelNS.defineClass(breelNS.projectName+".page.LandingPage", "generic.templates.
 	var DomElementOpacityTween = breelNS.getNamespace("generic.animation").DomElementOpacityTween;
 	var SearchPanel            = breelNS.getNamespace(breelNS.projectName+".page.landing").SearchPanel;
 	var CanvasRenderer         = breelNS.getNamespace(breelNS.projectName+".canvas").CanvasRenderer;
-	debugger;
 	var ParticleController	   = breelNS.getNamespace(breelNS.projectName+".page.landing").ParticleController;
 	var FallingImages	       = breelNS.getNamespace(breelNS.projectName+".page.landing").FallingImages;
 	var ProfileParticleController = breelNS.getNamespace(breelNS.projectName+".page.landing").ProfileParticleController;
@@ -39,9 +38,8 @@ breelNS.defineClass(breelNS.projectName+".page.LandingPage", "generic.templates.
 		this.renderer._y             = -100;
 		this._onParticleClickBound = ListenerFunctions.createListenerFunction(this, this._onParticleClick);
 		this.renderer.addEventListener(CanvasRenderer.ON_PARTICLE_CLICK, this._onParticleClickBound);
-
 		this.profileParticleController = new ProfileParticleController();
-		this.profileParticleController.init(this.template.querySelectorAll('.profileParticleWrapper_desktop'));
+		this.profileParticleController.init(this.template.querySelector('.profileParticleWrapper_desktop'));
 		this._onProfileParticleClickBound = ListenerFunctions.createListenerFunction(this, this._onProfileParticleClick);
 		this.profileParticleController.addEventListener(ProfileParticleController.ON_PROFILE_PARTICLE_CLICK, this._onProfileParticleClickBound);
 
@@ -52,6 +50,7 @@ breelNS.defineClass(breelNS.projectName+".page.LandingPage", "generic.templates.
 
 		this.container.appendChild(this.template);
 		this.container.appendChild(this._canvas);
+		debugger;
 		this._copyContainer = this.template.querySelector(".landingCopyContainer");
 		this._copyContainer.style.marginTop = -this._copyContainer.clientHeight + 140 + "px";
 		this._btnExplore = this.template.querySelector("#btnExplore");

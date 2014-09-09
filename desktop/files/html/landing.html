@@ -1,4 +1,8 @@
-
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	</head>
 	<body>
 		<div id="LandingContent" data-type="template">
 
@@ -6,16 +10,16 @@
 				<div class="loaderLogo"></div>
 				<div class="landingTitle">It all starts with a <span class="red">s</span><span class="blue">o</span><span class="lightblue">n</span><span class="green">g</span>.</div>
 				<div class="landingText">We want to uncover the musical connections between everyone at this year's Cannes Lions. So we're asking a simple question: what song inspires you?</div>
-				<img class="instructions" src="./landing_files/instructions.jpg">
+				<img class="instructions" src="landing/instructions.jpg" />
 				<div class="primaryButton" id="btnExplore">
-					<h1 data-type="copy" data-copyid="desktop.cannes.landing.btnExplore"></h1>
+					<h1 data-type='copy' data-copyId='desktop.cannes.landing.btnExplore'></h1>
 				</div>
 			</div>
 
 			<div class="mobilePush">
-				<div class="mobileIcon"></div>
-				<div class="mobilePushTitle">Be part of the story!</div>
-				<div class="mobilePushDesc">Visit <span class="green">spotify.com/cannes</span> on your phone to add your song</div>
+				<div class="mobileIcon" ></div>
+				<div class="mobilePushTitle" >Be part of the story!</div>
+				<div class="mobilePushDesc" >Visit <span class="green">spotify.com/cannes</span> on your phone to add your song</div>
 			</div>
 
 			<div class="landingSearchPanel">
@@ -34,13 +38,13 @@
 				</div>
 				<div id="genresFilterContainer">
 					<div class="secondaryButton buttonGreyDark" id="btnGenre">
-						<h1 class="btnGenreCopy" data-type="copy" data-copyid="desktop.cannes.landing.btnGenre"></h1>
+						<h1 class="btnGenreCopy" data-type='copy' data-copyId='desktop.cannes.landing.btnGenre'></h1>
 					</div>
 					<ul id="genresList">
 					</ul>
 					<li id="genreItemTemplate" class="genreItem">
 						<div class="legend">
-							<div class="percent">{{=percent}}</div>
+							<div class="percent">{{=percent}}%</div>
 							<div class="name">{{=name}}</div>
 						</div>
 						<div class="dot"></div>
@@ -48,7 +52,7 @@
 				</div>
 
 				<div class="secondaryButton buttonGreyFull" id="btnAbout">
-					<h1 class="btnGenreCopy" data-type="copy" data-copyid="desktop.cannes.landing.btnAbout"></h1>
+					<h1 class="btnGenreCopy" data-type='copy' data-copyId='desktop.cannes.landing.btnAbout'></h1>
 				</div>
 				<div id="btnShare" class="buttonGreyFull circleBtn30">
 					<div class="iconShare"></div>
@@ -66,7 +70,7 @@
 							<div class="prevArrow"></div>
 							<div class="nextArrow"></div>
 						</div>
-						<input type="text" class="searchInput" autocorrect="off" autocomplete="off" data-type="copy" data-copyid="desktop.cannes.landing.defaultSearch" placeholder="Search">
+						<input type="text" class="searchInput" autocorrect="off" autocomplete="off" data-type='copy' data-copyId='desktop.cannes.landing.defaultSearch' placeholder="Search"></input>
 						<div class="searchInputSuggestionContainer">
 							<div class="searchInputSuggestion">
 								<span class="searchInputSpanValue"></span><span class="searchInputSpanComplete"></span>
@@ -82,8 +86,8 @@
 						</ul>
 					</div>
 					<div class="buttonsContainer">
-						<h1 class="btnAgency secondaryButton buttonGreyDark" data-type="copy" data-copyid="desktop.cannes.landing.btnAgency"></h1>
-						<h1 class="btnPeople secondaryButton buttonGreyDark" data-type="copy" data-copyid="desktop.cannes.landing.btnPeople"></h1>
+						<h1 class="btnAgency secondaryButton buttonGreyDark" data-type='copy' data-copyId='desktop.cannes.landing.btnAgency'></h1>
+						<h1 class="btnPeople secondaryButton buttonGreyDark" data-type='copy' data-copyId='desktop.cannes.landing.btnPeople'></h1>
 					</div>
 				</div>
 			</div>
@@ -154,7 +158,7 @@
 		<div id="CountryNoResultContent" data-type="template">
 			<h2>No result found</h2>
 			<p>
-				There are no people connected from this country.<br>
+				There are no people connected from this country.<br />
 				Please search another country.
 			</p>
 		</div>
@@ -168,4 +172,5 @@
 				</div>
 			</div>
 		</div>
-	
+	</body>
+</html>

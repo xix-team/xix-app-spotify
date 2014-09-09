@@ -59,7 +59,9 @@
 		var lastSplitPosition = aClassPath.lastIndexOf(".");
 		var packagePath = aClassPath.substring(0, lastSplitPosition);
 		var className = aClassPath.substring(lastSplitPosition+1, aClassPath.length);
-		
+		if(className=="ExpandedProfileStartView"){
+			debugger;
+		}
 		var packageObject = this.getNamespace(packagePath);
 		if(packageObject[className] !== undefined) {
 			//console.warning("Can't define class " + aClassPath + " as it already exist.");

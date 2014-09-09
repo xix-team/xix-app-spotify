@@ -233,12 +233,10 @@ breelNS.defineClass(breelNS.projectName+".page.landing.ProfileParticleController
 	};
 
 	p.onResize = function(w,h, changePullMode){
-		debugger;
 		this._scale = h/siteManager.model.baseHeight;
 
 		this.el.style.height = h  + 'px';
 		this.el.style.width = w + 'px';
-
 		this.params.initProfileRadius = (w * this.params.centerParticleMultiplier) + this.params.profileRadiusAdjust;
 		this.params.initColorRadius = h/4;
 		var mergedArray = this._renderer.particles;

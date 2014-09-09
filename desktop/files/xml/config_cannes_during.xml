@@ -47,16 +47,18 @@
 		<template id="MainLoader" className="MainLoaderPage" assets=""></template>
 		<template id="SmallLoader" className="SmallLoaderPage" assets=""></template>
 
-		<template id="Landing" className="LandingPage" assets=""></template>
+		
 		<template id="Header" className="HeaderPage" assets=""></template>
 		<template id="Footer" className="FooterPage" assets=""></template>
 		<template id="About" className="AboutPage" assets=""></template>
 		<template id="Stats" className="StatsPage" assets="templateStats"></template>
+		<template id="Landing" className="LandingPage" assets=""></template>
 	</templates>
 
 	<pages permanent_pages="Header,Footer,Stats" loader_page="MainLoader">
-		<page id="Landing" open_pages="Landing" keep_pages="" loader_page="SmallLoader" default_state="" default_section="" />
+		
 		<page id="About" open_pages="About" keep_pages="all" loader_page="SmallLoader" default_state="" default_section="" />
 		<page id="Stats" open_pages="Stats" keep_pages="all" loader_page="SmallLoader" default_state="" default_section="" />
+		<page id="Landing" open_pages="Landing" keep_pages="" loader_page="SmallLoader" default_state="" default_section="" />
 	</pages>
 </data>

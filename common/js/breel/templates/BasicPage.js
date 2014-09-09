@@ -37,7 +37,6 @@
 		p.initialize = function(aTemplateName) {
 			siteManager = breelNS.getNamespace(breelNS.projectName).singletons.siteManager;
 			this.parseStatesAndSections();
-
 			if(aTemplateName !== undefined) this.addTemplate(aTemplateName);
 			this.getDomElements();
 			this.handleButtons();

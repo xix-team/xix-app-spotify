@@ -1,5 +1,5 @@
 // Core.js
-
+//核心类库
 (function() {
 	//	IMPORTS
 	var ListenerFunctions = breelNS.getNamespace("generic.events").ListenerFunctions;
@@ -35,11 +35,11 @@
 
 			
 		}
-
+		//创建core的命名空间
 		namespace.Core = Core;
 		var p = Core.prototype;
 
-
+		//初始化相关类
 		p.setup = function() {
 			this.animationManager = AnimationManager.create();
 			this.scheduler = Scheduler.create();
@@ -54,7 +54,7 @@
 			this._requestOnReadyStateChangeBound = this._requestOnReadyStateChange.bind(this);
 		};
 
-
+		//加载资源文件
 		p.load = function(configPath, aCopyPath) {
 			this.setCopyDocument(aCopyPath);
 
@@ -69,7 +69,7 @@
 			this.globalStateManager.init();
 
 			this.globalStateManager.setDefaultState();
-
+			debugger;
 			this.assetManager.updateAllStyleSheetsForPixelDensity();
 
 			if(breelNS.productionMode) {

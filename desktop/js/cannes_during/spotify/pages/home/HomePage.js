@@ -10,7 +10,6 @@ breelNS.defineClass(breelNS.projectName+".page.HomePage", "generic.templates.Bas
 	var CanvasRenderer     = breelNS.getNamespace(breelNS.projectName+".canvas").CanvasRenderer;
 	var Particle           = breelNS.getNamespace(breelNS.projectName+".canvas").Particle;
 	var siteManager;
-	debugger;
 	p.initialize = function() {
 		console.log( "init" );
 		siteManager 		= breelNS.getNamespace(breelNS.projectName).singletons.siteManager;

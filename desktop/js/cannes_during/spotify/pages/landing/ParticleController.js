@@ -36,7 +36,6 @@ breelNS.defineClass(breelNS.projectName+".page.landing.ParticleController", "gen
 	ParticleController.STATES = STATES;
 
 	p.init = function(renderer) {
-		debugger;
 		siteManager          = breelNS.getNamespace(breelNS.projectName).singletons.siteManager;
 		params               = siteManager.settings.params;
 		this._efIndex        = siteManager.scheduler.addEF(this, this.update, []);
